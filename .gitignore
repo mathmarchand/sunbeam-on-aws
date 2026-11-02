@@ -1,6 +1,14 @@
 # Local .terraform directories
 .terraform/
 
+# Terragrunt caches and generated stacks
+.terragrunt-cache/
+.terragrunt-stack/
+
+# Lab state, SSH keys and rendered files (contain secrets)
+state/
+generated/
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
